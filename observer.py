@@ -62,3 +62,15 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+'''
+output:
+init publish state to 1
+attach subscribers
+changed state to 2
+Observer: subscriber1, Subject: state 2
+Observer: subscriber2, Subject: state 2
+detach subscriber2
+changed state to 3
+Observer: subscriber1, Subject: state 3
+'''
