@@ -1,4 +1,5 @@
 # design_patterns
 design patterns study | python implement
 
-.py files can be executable
+each .py is a pattern implemented by python
+.py files is executable
